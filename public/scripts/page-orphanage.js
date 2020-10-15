@@ -19,9 +19,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 const icon = L.icon({
     iconUrl: "./public/images/map-marker.svg",
-    iconSize: [58,68],
-    iconAnchor: [29, 68],
-    popupAnchor: [170, 2]
+    iconSize: [58,68]
 });
 
 L.marker([-7.8, -34.9], {icon}).addTo(mymap).bindPopup(popup);
