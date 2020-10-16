@@ -9,20 +9,34 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 const icon = L.icon({
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     iconSize: [58,68],
     iconAnchor: [29, 68],
     popupAnchor: [170, 2]
 });
 
-const popup = L.popup({
-    closeButton: false,
-    className: 'map-popup',
-    minWidth: 240,
-    minHeight: 240
-}).setContent('Lar das meninas <a href="orphanage.html" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"/> </a>')
+function addMarker({id, name, latitude, longitude}){
+    
+    const popup = L.popup({
+        closeButton: false,
+        className: 'map-popup',
+        minWidth: 240,
+        minHeight: 240
+    }).setContent(`${name}<a href="/orphanage?id=${id}"> <img src="/images/arrow-white.svg"/> </a>`)
+    
+    L.marker([latitude, longitude], {icon})
+                    .addTo(mymap)
+                        .bindPopup(popup)
+}
 
-L.marker([-7.8, -34.9], {icon})
-                .addTo(mymap)
-                    .bindPopup(popup)
-                        
+const orphanagesSpan = document.querySelectorAll('.orphanages span');
+orphanagesSpan.forEach(span => {
+    const orphanage = {
+        id: span.dataset.id,
+        name: span.dataset.name,
+        latitude: span.dataset.latitude,
+        longitude: span.dataset.longitude
+    }
+
+    addMarker(orphanage);
+})
