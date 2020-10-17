@@ -1,18 +1,12 @@
 <h3 align="center">
-    <img alt="Logo" title="logo" width="300px" src="./img/logo.svg">
+    <img alt="Logo" title="logo" width="300px" src="./public/images/logo.svg" style="drop-shadow(7px 9px 9px rgba(0,0,0,.3))">
     <br><br>
     <b>Leve felicidade para o mundo!</b> 
 </h3>
 
-<p align="center">
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/Made%20by-Rocketseat-29B6D1">
-  </a>
-</p>
-
 ## :bookmark: Sobre
 
-O <strong>Happy</strong> é uma aplicação Web e Mobile para ajudar pessoas a encontrarem orfanatos e espalhar felicidade para as crianças que lá residem.
+O <strong>Happy</strong> é uma aplicação Web com o intuido ajudar pessoas a encontrarem orfanatos e espalhar felicidade para as crianças que lá residem.
 
 ## 🤔 Mas por quê devemos ajudar?
 
