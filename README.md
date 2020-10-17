@@ -12,14 +12,13 @@ O <strong>Happy</strong> é uma aplicação Web com o intuido ajudar pessoas a e
 
 Orfanatos geralmente recolhem roupas novas e vários presentes no Dia das Crianças, Natal e outras datas comemorativas. Muitas ONGs que distribuem alimentos para os sem-teto contam com doações das partes interessadas. De qualquer forma, podemos ajudar de alguma forma e deixar as pessoas que precisam de dias mais felizes e solidárias!
 
-## 🚀 Tecnologias usadas
-
-Este maravilindo projeto foi desenvolvido com as seguintes tecnologias:
-
-- [TypeScript](https://www.typescriptlang.org/)
+### :bookmark_tabs: Tecnologias
+Este projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
-- [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [handlebars](https://handlebarsjs.com/)
+- [Nodemon](https://nodemon.io/)
+- [Express](https://expressjs.com/pt-br/)
+- [SQLite](https://www.sqlite.org/index.html)
 
 ## :memo: License
 
