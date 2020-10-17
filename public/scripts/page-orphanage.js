@@ -7,7 +7,11 @@ const options = {
 
 }
 
-const mymap = L.map('mapid', options).setView([-7.8,-34.9], 15);
+const spanLat = document.querySelector('span[data-latitude]').dataset.latitude;
+const spanLong = document.querySelector('span[data-longitude]').dataset.longitude;
+                                  
+
+const mymap = L.map('mapid', options).setView([spanLat, spanLong], 15);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     maxZoom: 18,
@@ -22,7 +26,8 @@ const icon = L.icon({
     iconSize: [58,68]
 });
 
-L.marker([-7.8, -34.9], {icon}).addTo(mymap).bindPopup(popup);
+
+L.marker([spanLat, spanLong], {icon}).addTo(mymap).bindPopup(popup);
 
 function selectImage(event){
     const button = event.currentTarget;

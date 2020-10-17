@@ -67,3 +67,8 @@ function toggleSelect(event){
 
     input.value = button.dataset.value;
 }
+
+// function validate(event){
+//     event.preventDefult()
+//     alert("selecione um ponto no mapa")
+// }
