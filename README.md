@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" title="logo" width="300px" src="./public/images/logo.svg" style="drop-shadow:7px 9px 9px rgba(0,0,0,.3)">
+    <img alt="Logo" title="logo" width="300px" src="./public/images/logo.svg" style="shadow:7px 9px 9px rgba(0,0,0,.3)">
     <br><br>
     <b>Leve felicidade para o mundo!</b> 
 </h3>
