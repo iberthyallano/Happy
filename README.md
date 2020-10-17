@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" title="logo" width="300px" src="./public/images/logo.svg" style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)">
+    <img alt="Logo" title="logo" width="300px" src="./public/images/logo_2.svg" style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)">
     <br><br>
     <b>Leve felicidade para o mundo!</b> 
 </h3>
@@ -21,59 +21,8 @@ Este maravilindo projeto foi desenvolvido com as seguintes tecnologias:
 - [ReactJS](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
 
-<a id="como-usar"></a>
-
-## :fire: Como usar
-
-- ### **Pré-requisitos**
-
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
-
-1. Faça um clone :
-
-```sh
-  $ git clone https://github.com/fl4m3x/happy.git
-```
-
-2. Executando a Aplicação:
-
-```sh
-  # Instale as dependências
-  $ yarn install
-
-  # Inicie a aplicação web
-  $ cd web
-  $ yarn start
-
-```
-
-<a id="como-contribuir"></a>
-
-## :recycle: Como contribuir
-
-- Faça um Fork desse repositório,
-- Crie uma branch com a sua feature: `git checkout -b my-feature`
-- Commit suas mudanças: `git commit -m 'feat: My new feature'`
-- Push a sua branch: `git push origin my-feature`
-
-## :mortar_board: Quem ministrou?
-
-As aulas foram ministradas pelo mestre jedi **[Diego Fernandes](https://github.com/diego3g)**
-
 ## :memo: License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-## Agradecimentos
-
-O pessoal da **[He4rt Developers](https://github.com/he4rt)** e da **[Rocketseat](https://github.com/Rocketseat)** deram aquela mão quando as coisas ficaram ruins e me salvaram, sem me deixar desistir!
-Entrem na [comunidade da He4rt Developers no Discord](https://discord.gg/8mA4CM2) e [na comunidade da Rocketseat no discord!](https://discordapp.com/invite/gCRAFhc) :rocket:
-
-
 ---
-
-<h4 align="center">
-    Feito com 💙 by <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-nunes-de-carli-8bb05a123//" target="_blank">João Carli</a>
-</h4>
