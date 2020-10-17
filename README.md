@@ -12,13 +12,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [SQLite](https://www.sqlite.org/index.html)
 
-## :bookmark: Sobre
+## :speech_balloon: Sobre
 
 O <strong>Happy</strong> é uma aplicação Web com o intuido ajudar pessoas a encontrarem orfanatos e espalhar felicidade para as crianças que lá residem.
 
-## 🤔 Mas por quê devemos ajudar?
+## :hugs: Mas por quê devemos ajudar?
 
-Orfanatos geralmente recolhem roupas novas e vários presentes no Dia das Crianças, Natal e outras datas comemorativas. Muitas ONGs que distribuem alimentos para os sem-teto contam com doações das partes interessadas. De qualquer forma, podemos ajudar de alguma forma e deixar as pessoas que precisam de dias mais felizes e solidárias!
+Orfanatos geralmente recolhem roupas novas e vários presentes no Dia das Crianças, Natal e outras datas comemorativas. Muitas ONGs que distribuem alimentos para os sem-teto contam com doações das partes interessadas. Praticar uma boa ação ajudando de alguma forma deixa seu dia e o dia dessas pessoas mais felizes!
 
 ### :memo: Licença
 
